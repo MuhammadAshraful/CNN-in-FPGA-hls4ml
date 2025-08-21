@@ -1,0 +1,20 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    conv2d:
+      Strategy: Latency
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<6,2>
+    ReuseFactor: 128
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'hls_cnn/keras_model.h5'
+OutputDir: hls_cnn
+OutputPredictions: null
+Part: xcku5p-ffvb676-2-e
+ProjectName: myproject
+Stamp: F21cA5f5

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Aug 20 04:29:34 2025
+# Process ID: 2400
+# Current directory: C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
+# Log file: C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog\xsim.jou
+# Running On        :LAPTOP-K63VGFQ9
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+# CPU Frequency     :2304 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8433 MB
+# Swap memory       :21093 MB
+# Total Virtual     :29527 MB
+# Available Virtual :6025 MB
+#-----------------------------------------------------------
+source xsim.dir/myproject/xsim_script.tcl
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl

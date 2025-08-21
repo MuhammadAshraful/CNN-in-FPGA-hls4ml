@@ -1,0 +1,73 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_myproject_top glbl -Oenable_linking_all_libraries -prj myproject.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_23 -L floating_point_v7_1_18 --lib ieee_proposed=./ieee_proposed -s myproject -debug all 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_myproject_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_conv_2d_cl_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_config2_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_conv_2d_cl_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_config2_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_dense_resource_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_resource_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_6_2_5_3_0_config5_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_6_2_5_3_0_config5_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_6_2_5_3_0_config5_s_w5_ROM_AUTO_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_6_2_5_3_0_config5_s_w5_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_fifo_w5_d2_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w5_d2_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w5_d2_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_fifo_w6_d2_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w6_d2_S
+INFO: [VRFC 10-311] analyzing module myproject_fifo_w6_d2_S_ShiftReg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_fill_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_fill_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_flow_control_loop_pipe_no_ap_cont.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_flow_control_loop_pipe_no_ap_cont
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_mul_5ns_3s_8_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_5ns_3s_8_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_mul_6s_5ns_10_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_mul_6s_5ns_10_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_relu_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_relu_config3_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_relu_ap_fixed_6_2_5_3_0_ap_fixed_6_2_5_3_0_relu_config3_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_softmax_stable_ap_fixed_ap_fixed_6_2_5_3_0_softmax_config6_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_softmax_stable_ap_fixed_ap_fixed_6_2_5_3_0_softmax_config6_s
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/myproject_sparsemux_209_7_5_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module myproject_sparsemux_209_7_5_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/96898/Desktop/FPGA/hls_cnn/myproject_prj/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.myproject_fill_buffer
+Compiling module xil_defaultlib.myproject_conv_2d_cl_ap_fixed_6_...
+Compiling module xil_defaultlib.myproject_relu_ap_fixed_6_2_5_3_...
+Compiling module xil_defaultlib.myproject_dense_resource_rf_leq_...
+Compiling module xil_defaultlib.myproject_sparsemux_209_7_5_1_1(...
+Compiling module xil_defaultlib.myproject_mul_6s_5ns_10_1_1(NUM_...
+Compiling module xil_defaultlib.myproject_mul_5ns_3s_8_1_1(NUM_S...
+Compiling module xil_defaultlib.myproject_flow_control_loop_pipe...
+Compiling module xil_defaultlib.myproject_dense_resource_rf_leq_...
+Compiling module xil_defaultlib.myproject_dense_resource_ap_fixe...
+Compiling module xil_defaultlib.myproject_softmax_stable_ap_fixe...
+Compiling module xil_defaultlib.myproject_fifo_w6_d2_S_ShiftReg
+Compiling module xil_defaultlib.myproject_fifo_w6_d2_S_default
+Compiling module xil_defaultlib.myproject_fifo_w5_d2_S_ShiftReg
+Compiling module xil_defaultlib.myproject_fifo_w5_d2_S_default
+Compiling module xil_defaultlib.myproject
+Compiling module xil_defaultlib.df_fifo_intf_default
+Compiling module xil_defaultlib.df_process_intf_default
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=4)
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_myproject_top
+Compiling module work.glbl
+Built simulation snapshot myproject
