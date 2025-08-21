@@ -1,4 +1,4 @@
 *.ipynb
 *.tar.gz
-*/hls_cnn/*
+hls_cnn/
 .ipynb_checkpoints/
